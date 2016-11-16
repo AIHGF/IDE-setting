@@ -1,0 +1,32 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"theme": "ayu-mirage.sublime-theme",
+	"color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
+    "font_size": 16,
+	"line_numbers": true,
+	"show_encoding": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "match_selection": true,
+    "word_wrap": false,
+    "hot_exit": false,
+    "tab_completion": true,
+    "auto_find_in_selection": true,
+    "rulers": [
+        80
+    ],
+    "spell_check": false,
+    "scroll_past_end": true,
+    "ignored_packages": [
+        "Vintage"
+    ],
+    "draw_white_space": "all",
+    "bold_folder_labels": true,
+    "show_full_path": true,
+    "show_line_endings": true,
+    "auto_indent": true,
+    "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS"],
+    "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"]
+}
