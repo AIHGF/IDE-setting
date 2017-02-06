@@ -1,0 +1,41 @@
+参考 https://bespohk.com/blog/configuring-python-visual-studio-code
+
+// Place your settings in this file to overwrite the default settings
+{
+     // Python specific
+    "python.pythonPath": "/usr/bin/python",
+    "python.autoComplete.extraPaths": [
+        "/usr/lib/python2.7/site-packages"
+    ],
+    "python.devOptions": [
+        "DEBUG"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.nosetestsEnabled": false,
+
+    // Extension and editor preferences
+    "files.insertFinalNewline": true,
+    "editor.fontFamily": "Fira Mono",
+    "editor.fontSize": 20,
+    "editor.mouseWheelZoom" : true,
+    "editor.renderIndentGuides": true,
+    "editor.rulers": [79],
+    "editor.roundedSelection": false,
+    "explorer.openEditors.visible": 0,
+    "trailing-spaces.trimOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        "**/__pycache__": true,
+        "**/**/*.pyc": true,
+        "*.pyc": true,
+        "*.pyo" : true,
+        ".txt~" : true
+    },
+    "vsicons.dontShowNewVersionMessage": true
+}
