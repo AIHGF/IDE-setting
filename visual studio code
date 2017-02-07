@@ -21,6 +21,7 @@
     "files.insertFinalNewline": true,
     "editor.fontFamily": "Fira Mono",
     "editor.fontSize": 20,
+    "editor.lineHeight": 0,
     "editor.mouseWheelZoom" : true,
     "editor.renderIndentGuides": true,
     "editor.rulers": [79],
@@ -37,5 +38,11 @@
         "*.pyo" : true,
         ".txt~" : true
     },
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+     "window.reopenFolders": "none",
+     "git.enabled": false,
+    "update.channel": "none",
+    "workbench.welcome.enabled": false,
+    "window.menuBarVisibility": "default",
+    "workbench.editor.enablePreview": false
 }
