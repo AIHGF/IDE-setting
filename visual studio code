@@ -19,7 +19,8 @@
 
     // Extension and editor preferences
     "files.insertFinalNewline": true,
-    "editor.fontFamily": "Fira Mono",
+    //"editor.fontFamily": "Fira Mono",Ubuntu Regular Italic
+    "editor.fontFamily": "Droid Sans Fallback",
     "editor.fontSize": 20,
     "editor.lineHeight": 0,
     "editor.mouseWheelZoom" : true,
@@ -32,6 +33,8 @@
         "**/.git": true,
         "**/.DS_Store": true,
         ".vscode": true,
+        ".idea": true,
+        ".cache": true,
         "**/__pycache__": true,
         "**/**/*.pyc": true,
         "*.pyc": true,
@@ -44,5 +47,19 @@
     "update.channel": "none",
     "workbench.welcome.enabled": false,
     "window.menuBarVisibility": "default",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+
+    //Markdown settings
+    "markdown.preview.fontSize": 18,
+    "files.associations": {
+        "*.py": "python"
+    },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "material-icon-theme",
+
+    //Matlab settings
+    "matlab.mlintpath": "/usr/local/MATLAB/R2014a/bin/glnxa64/mlint",
+    "files.associations": {"*.m": "matlab"}
 }
+
